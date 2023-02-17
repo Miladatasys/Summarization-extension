@@ -1,0 +1,20 @@
+{
+    "name": "Summarization Extension",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "A chrome extension for generating summarizations",
+    "icons": {
+        "16": "my-icon.png",
+        "32": "my-icon.png",
+        "48": "my-icon.png",
+        "128": "my-icon.png"
+      },
+    "browser_action": {
+        "default_popup": "index.html",
+        "background": {
+            "service_worker": "background.js"
+        }
+    }
+}
+
+  

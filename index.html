@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Summarization Extension</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Summarization Extension</h1>
+      <link rel="icon" href="my-icon.png" type="image/x-icon">
+      <form>
+        <div class="form-group">
+          <label for="slider">Length of Summary:</label>
+          <input type="range" min="6" max="20" class="form-control" id="slider">
+        </div>
+        <button type="button" class="btn btn-success" id="generate">Generate Summarization </button>
+        
+        <button type="button" class="btn btn-default" id="copy"><i class="fas fa-copy"></i>  Copy to Clipboard</button>
+        
+      </form>
+      <hr>
+      <div id="summary"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
