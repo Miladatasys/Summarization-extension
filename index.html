@@ -16,10 +16,12 @@
           <label for="slider">Length of Summary:</label>
           <input type="range" min="6" max="20" class="form-control" id="slider">
         </div>
-        <button type="button" class="btn btn-success" id="generate">Generate Summarization </button>
-        
-        <button type="button" class="btn btn-default" id="copy"><i class="fas fa-copy"></i>  Copy to Clipboard</button>
-        
+        <div class="form-group">
+          <label for="input">Enter the text to summarize:</label>
+          <textarea class="form-control" id="input" rows="5"></textarea>
+        </div>
+        <button type="button" class="btn btn-success" id="generate">Generate Summarization</button>
+        <button type="button" class="btn btn-default" id="copy"><i class="fas fa-copy"></i> Copy to Clipboard</button>
       </form>
       <hr>
       <div id="summary"></div>
